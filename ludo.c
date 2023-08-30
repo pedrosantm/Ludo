@@ -7,7 +7,7 @@ typedef struct dados{//struct para jogadores
     char cor[50];//cor das peças do jogador
     int peao[4];//vetor de 4 posiçoes, representando cada peao de cada jogador
     int saiu;
-    int dados[4];//variavelo de verificação se o jogador saiu da primeira jogada
+
 
 }dados;
 
@@ -44,20 +44,6 @@ int main() {
 
     memset(jogador1.peao, 0, sizeof(jogador1.peao));//atribuição dos valores 0 a todas as posiçoes dos vetores peoes dos jogadores 1 e 2
     memset(jogador2.peao, 0, sizeof(jogador2.peao));
-    
-
-
-    printf("  _____               _    \n");
-    printf(" |_   _|             | |   \n");
-    printf("   | |    _   _  __ _| | ____\n");
-    printf("   | |   | | | |/ _` | ||    |\n");
-    printf("   | |___| | |_| | (_| || || |\n");
-    printf("   |_____|\\__,_|\\__,_||____|\n");
-    printf("\n");
-    printf("  Bem-vindo ao Ludo!\n");
-
-
-
 
     printf("****Bem-vindo ao jogo ludo****\n");
     printf("Digite qualquer tecla para iniciar o jogo\n");
