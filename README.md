@@ -1,5 +1,5 @@
-Ludo\n
-Jogo ludo em linguagem C\n
+Ludo
+-Jogo ludo em linguagem C
 -Regras do jogo
 -Ludo é jogado de 2 a 4 jogadores. Cada jogador possui 4 peões. Aquele que levar os 4 peões até o final (triângulo) primeiro, será declarado o vencedor (seu programa deverá permitir que o usuário entre com a quantidade de jogadores);
 -O peão só pode ser movido para o início da corrida, na casa de sua respectiva cor, quando um jogador lançar um 6 no dado;
